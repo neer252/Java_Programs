@@ -9,6 +9,10 @@ public class CustomerController {
 	@RequestMapping("customers")
 	public String customers() {
 		
+<<<<<<< HEAD
 		return "customerslist.jsp";
+=======
+		return "customerslist";
+>>>>>>> ef0e6dd... first jsp and project fixes
 	}
 }
